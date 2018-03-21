@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of AssetTest.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/yumingliang/AssetTest",
+  "homepage": "https://github.com/LeonComponent/AssetTest",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "yumingliang": "yumingliang@kaike.la"
   },
   "source": {
-    "git": "https://github.com/yumingliang/AssetTest.git",
+    "git": "https://github.com/LeonComponent/AssetTest.git",
     "tag": "0.1.0"
   },
   "platforms": {
