@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AssetTest_Example' do
+  pod 'AssetTest', :path => '../'
+
+  target 'AssetTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

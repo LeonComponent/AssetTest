@@ -1,0 +1,43 @@
+{
+  "name": "AssetTest",
+  "version": "0.1.0",
+  "summary": "A short description of AssetTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yumingliang/AssetTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yumingliang": "yumingliang@kaike.la"
+  },
+  "source": {
+    "git": "https://github.com/yumingliang/AssetTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AssetTest/Classes/AssetTest.h",
+  "resource_bundles": {
+    "AssetTest": [
+      "AssetTest/Assets/*.png"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "GroupA",
+      "source_files": "AssetTest/Classes/GroupA/**/*",
+      "subspecs": [
+        {
+          "name": "GroupA_1",
+          "source_files": "AssetTest/Classes/GroupA/GroupA_1/**/*"
+        }
+      ]
+    },
+    {
+      "name": "GroupB",
+      "source_files": "AssetTest/Classes/GroupB/*"
+    }
+  ]
+}
